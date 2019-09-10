@@ -17,6 +17,20 @@ body{
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+.welcome_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    
+    
+}
+.myphoto{
+    height: 100px;
+    width: 100px;
+    background: url(/img/_MG_9047-Edit.JPG) center center/cover no-repeat;
+    border-radius: 50%;
+    
+}
 
 .space{
     width: 100;
