@@ -26,7 +26,18 @@ body{
 /* Section: Footer */
 footer{
     width: 100%;
-    height: 100%;
+    height: 9vh;
     background-color: darkblue;
     color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
+.made, .copyright, .powered{
+    flex: 1;
+}
+.made a, .made i{
+    color: pink;
+}
+
