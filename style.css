@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    
+
+}
+/* Section: Landing page */
+.landing{
+    width: 100%;
+    height: 90vh;
+    background-color: darkblue;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.space{
+    width: 100;
+    height: 1vh;
+    background-color: lightgray;
+}
+/* Section: Footer */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    color: whitesmoke;
+}
