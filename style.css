@@ -67,7 +67,30 @@ footer{
 }
 .skill_page_title{
     text-align: center;
+    color: whitesmoke;
 }
 .skill_page_para{
     text-align: center;
+    
+}
+
+.skillbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.coding_skill_btn{
+    background-color: lightgrey;
+    padding: 0.5rem 2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 10px 0 10px 0px;
+}
+.biz_skill_btn{
+    background-color: lightgrey;
+    padding: 0.5rem 2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 0 10px 0 10px;
 }
