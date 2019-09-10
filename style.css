@@ -55,3 +55,15 @@ footer{
     color: pink;
 }
 
+/* Page: Skills */
+/* Section: Landing */
+.landing_skills{
+    width: 100%;
+    height: 90vh;
+}
+.skill_page_title{
+    text-align: center;
+}
+.skill_page_para{
+    text-align: center;
+}
