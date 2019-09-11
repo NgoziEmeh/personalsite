@@ -120,10 +120,18 @@ footer{
 .backend-end{
     margin-left: 0.5rem;
 }
-.frontend_title, .backend_title{
+.frontend_title, .backend_title, .biz_skills_title{
     background-color: whitesmoke;
     width: 100%;
     height: 5%;
     text-align: center;
     font-weight: bold;
+}
+.biz_skills{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: solid 2px lightgrey;
+
 }
