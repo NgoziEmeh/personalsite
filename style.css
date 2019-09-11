@@ -110,6 +110,12 @@ footer{
     margin-top: 0.5rem;
     height: 100%;
 }
+.coding_skills.show{
+    display: none;
+    justify-content: center;
+    margin-top: 0.5rem;
+    height: 100%;
+}
 .front-end, .backend-end{
     height: 100%;
     width: 30%;
@@ -129,6 +135,14 @@ footer{
     
 }
 .biz_skills{
+    height: 100%;
+    width: 50%;
+    display: none;
+    justify-content: center;
+    border: solid 2px lightgrey;
+
+}
+.biz_skills.show{
     height: 100%;
     width: 50%;
     display: flex;
