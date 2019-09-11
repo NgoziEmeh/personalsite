@@ -105,13 +105,13 @@ footer{
 }
 /* Section : coding skills */
 .coding_skills{
-    display: flex;
+    display: none;
     justify-content: center;
     margin-top: 0.5rem;
     height: 100%;
 }
 .coding_skills.show{
-    display: none;
+    display: flex;
     justify-content: center;
     margin-top: 0.5rem;
     height: 100%;
@@ -137,7 +137,7 @@ footer{
 .biz_skills{
     height: 100%;
     width: 50%;
-    display: none;
+    display: flex;
     justify-content: center;
     border: solid 2px lightgrey;
 
@@ -145,7 +145,7 @@ footer{
 .biz_skills.show{
     height: 100%;
     width: 50%;
-    display: flex;
+    display: none;
     justify-content: center;
     border: solid 2px lightgrey;
 
