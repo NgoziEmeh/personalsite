@@ -124,6 +124,14 @@ footer{
     margin-top: 0.5rem;
     height: 100%;
     width: 60%;
+    position: relative;
+    animation: codeskill;
+    animation-duration: 3s;
+    
+}
+@keyframes codeskill{
+    0% {left: -150px}
+    100% {left: 0px}
 }
 .front-end, .backend-end{
     height: 100%;
@@ -150,8 +158,14 @@ footer{
     /* justify-content: center; */
     border: solid 2px lightgrey;
     margin-top: 0.5rem;
-    
-
+    position: relative;
+    animation: bizskill;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes bizskill{
+    0% {left: -150px}
+    100% {left: 0px}
 }
 .biz_skills.show{
     height: 100%;
