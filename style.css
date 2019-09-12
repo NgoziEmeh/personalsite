@@ -105,9 +105,6 @@ footer{
     width: 90%;
     display: flex;
     justify-content: center;
-    
-    
-
 }
 /* Section : coding skills */
 .coding_skills{
@@ -116,6 +113,9 @@ footer{
     margin-top: 0.5rem;
     height: 100%;
     width: 60%;
+    position: relative;
+    animation: codeskill;
+    animation-duration: 3s;
     
 }
 .coding_skills.show{
@@ -207,4 +207,31 @@ footer{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+/* Page: Portfolio */
+.portfolio_skills{
+    width: 100%;
+    height: 90vh;
+    background-color: darkblue;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.portfolio_page_title{
+    text-align: center;
+    color: whitesmoke;
+}
+.portfolio_page_para{
+    text-align: center;
+    
+}
+.portfolio_flex_container{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_area{
+    height: 75vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }

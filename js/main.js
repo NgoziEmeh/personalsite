@@ -10,7 +10,7 @@ codeSkillBtn.addEventListener("click", () => {
     if (codeSkillArea.style.display = "flex") {
         bizSkillArea.style.display = "none";
     } else {
-        bizSkillArea.style.display = "flex";
+        bizSkillArea.style.display = "block";
 
     }
 });
