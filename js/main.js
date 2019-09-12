@@ -17,7 +17,7 @@ codeSkillBtn.addEventListener("click", () => {
 
 bizSkillBtn.addEventListener("click", () => {
     bizSkillArea.classList.toggle("show");
-    if (bizSkillArea.style.display = "flex") {
+    if (bizSkillArea.style.display = "block") {
         codeSkillArea.style.display = "none";
     } else {
         codeSkillArea.style.display = "flex"
