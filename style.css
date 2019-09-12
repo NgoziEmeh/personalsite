@@ -253,12 +253,23 @@ footer{
 }
 
 .portfolio_body{
-    padding: 1.5rem;
-    display: flex;
+    padding: 0.1rem;
     color: white;
     font-size: 1.2rem;
 }
-.portfolio_left, .portfolio_right{
-    flex: 1;
 
+.portfolio_firstrow{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+.site_size{
+    /* flex: 1; */
+    border: 1px lightgray solid;
+    
+}
+.site_size img{
+    width:350px;
+    height: 150px;
 }
