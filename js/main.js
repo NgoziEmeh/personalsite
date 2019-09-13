@@ -1,3 +1,5 @@
+// Page: skills
+// Section: skill btn
 const codeSkillBtn = document.querySelector(".coding_skill_btn");
 const bizSkillBtn = document.querySelector(".biz_skill_btn");
 const codeSkillArea = document.querySelector(".coding_skills");
@@ -25,4 +27,12 @@ bizSkillBtn.addEventListener("click", () => {
 
     }
 
+});
+
+// Section: Navigation
+const ham = document.querySelector(".hamburger");
+const nav = document.querySelector(".navigations");
+
+ham.addEventListener("click", () => {
+    nav.classList.toggle("open");
 });

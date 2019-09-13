@@ -22,19 +22,31 @@ body{
 /* Navigation area */
 .nav_area{
     background-color: transparent;
-    height: 15vh;
+    height: 10vh;
 }
 .navigations{
-    position: absolute;
-    background-color: white;
+    position: fixed;
+    background-color: lightgray;
     height: 300px;
-    width: 200px;
-    top: 5%;
-    right: 0%;
+    width: 250px;
+    top: 4%;
+    right: 2%;
+    display: none;
+
+}
+.navigations.open{
+    position: fixed;
+    background-color: lightgray;
+    height: 300px;
+    width: 250px;
+    top: 4%;
+    right: 2%;
+    display: block;
 
 }
 .navigations ul{
     list-style: none;
+    margin-top: 5px;
     
 }
 .navigations ul a{
@@ -52,6 +64,7 @@ body{
     right: 5%;
     top: 5%;
     cursor: pointer;
+    z-index: 2;
 }
 
 .line{
