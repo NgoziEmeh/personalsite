@@ -23,6 +23,7 @@ body{
 .nav_area{
     background-color: transparent;
     height: 10vh;
+    
 }
 .navigations{
     position: fixed;
@@ -64,6 +65,7 @@ body{
     right: 5%;
     top: 5%;
     cursor: pointer;
+    /* transform: translate(-5%, -50%); */
     z-index: 2;
 }
 
@@ -440,8 +442,12 @@ footer{
 }
 .role{
     color: lightgray;
+    font-style: italic;
     
 }
 .company{
     color: lightgray;
+}
+.company h3{
+    color: grey;
 }
