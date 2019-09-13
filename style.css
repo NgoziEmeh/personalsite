@@ -336,7 +336,7 @@ footer{
     width: 100%;
     height: 30%;
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -345,6 +345,7 @@ footer{
 }
 .int1 i{
     color: lightgray;
+    
     
 }
 .int1 h4{
