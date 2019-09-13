@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: white;
+    /* background-color: white; */
+    font-family: 'Roboto', sans-serif;
     
 
 }
@@ -238,7 +239,7 @@ footer{
     justify-content: center;
 }
 .portfolio_container{
-    height: 95%;
+    height: 98%;
     width: 60%;
     display: block;
     /* justify-content: center; */
@@ -258,6 +259,7 @@ footer{
     padding: 0.1rem;
     color: white;
     font-size: 1.2rem;
+ 
 }
 
 .portfolio_firstrow, .portfolio_secondrow{
@@ -277,9 +279,11 @@ footer{
 }
 .site_visit a{
     color: gray;
+    
 }
 .site_stack{
     color: grey;
+    font-size: 16px;
 }
 /* Page: Interests */
 .landing_interest{
@@ -348,7 +352,7 @@ footer{
     
     
 }
-.int1 h4{
+.int1 h5{
     color: lightgray;
     
 }
