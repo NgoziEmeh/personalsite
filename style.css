@@ -520,4 +520,27 @@ footer{
 }
 .school_detail{
     text-align: center;
+    margin-top: 20px;
+    position: relative;
+    animation: formal;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes formal{
+    0% {left: -350px}
+    100% {left: 0px}
+}
+
+.school_name{
+    color: lightgray;
+    font-weight: bold;
+}
+.course_name{
+    font-weight: bold;
+}
+.year_grad{
+    color: lightgray;
+}
+.grade{
+    font-weight: bold;
 }
