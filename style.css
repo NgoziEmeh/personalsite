@@ -451,3 +451,10 @@ footer{
 .company h3{
     color: grey;
 }
+.responsibility, .acheivment{
+    color: lightgray;
+}
+.acheivment a{
+    color: grey;
+    font-weight: bold;
+}
