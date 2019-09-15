@@ -492,7 +492,7 @@ footer{
 /* Page: Education */
 .landing_edu{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background-color: darkblue;
     /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
@@ -519,6 +519,17 @@ footer{
     
 }
 .school_detail{
+    height: 90vh;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    animation: formal;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.school_detail.hide{
+    display: none;
     text-align: center;
     margin-top: 20px;
     position: relative;
@@ -543,4 +554,30 @@ footer{
 }
 .grade{
     font-weight: bold;
+}
+.street_detail{
+    display: none;
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    animation: formal2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.street_detail.hide{
+    display: block;
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    animation: formal2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 90vh;
+    width: 70%;
+}
+@keyframes formal2{
+    0% {left: -350px}
+    100% {left: 0px}
 }
