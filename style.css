@@ -519,7 +519,7 @@ footer{
     
 }
 .school_detail{
-    height: 90vh;
+    height: 52vh;
     display: block;
     text-align: center;
     margin-top: 20px;
@@ -564,18 +564,19 @@ footer{
     animation: formal2;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    height: 100%;
 }
 .street_detail.hide{
     display: block;
     color: lightgray;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 100px;
     position: relative;
     animation: formal2;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    height: 90vh;
-    width: 70%;
+    height: 100%;
+    
 }
 @keyframes formal2{
     0% {left: -350px}
