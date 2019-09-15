@@ -100,7 +100,7 @@ body{
 /* Section: Footer */
 footer{
     width: 100%;
-    height: 100%;
+    height: 9vh;
     background-color: darkblue;
     color: whitesmoke;
     display: flex;
@@ -482,6 +482,8 @@ footer{
     }
     footer{
         display: block;
+        height: 100%;
+        
     }
     .made, .copyright, .powered{
         margin:5px auto;
@@ -490,7 +492,7 @@ footer{
 /* Page: Education */
 .landing_edu{
     width: 100%;
-    height: 100%;
+    height: 90vh;
     background-color: darkblue;
     /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
@@ -501,5 +503,21 @@ footer{
 }
 .education_para{
     color: lightgray;
+    text-align: center;
+}
+.education_btn{
+    display: flex;
+    justify-content: center;
+}
+.school, .informal_edu{
+    background-color: grey;
+    padding: 10px 30px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px 0 20px 0;
+    font-weight: bold;
+    
+}
+.school_detail{
     text-align: center;
 }
