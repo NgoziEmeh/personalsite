@@ -437,8 +437,14 @@ footer{
     
 }
 .experience_area{
-    width: 90%;
+    width: 95%;
     height: 95%;
+    display: flex;
+    
+}
+.experience1, .experience2{
+    margin: 5px 10px;
+    flex: 1;
 }
 .role{
     color: white;
