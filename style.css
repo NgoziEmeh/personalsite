@@ -93,6 +93,16 @@ body{
     color: white;
     font-weight: bold;
 }
+.welcome, .philosophy{
+    position: relative;
+    animation: welc;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes welc{
+    0%{left: -150px}
+    100%{left: 0px}
+}
 .welcome h1{
     color: gray;
 }
@@ -104,12 +114,24 @@ body{
     width: 120px;
     background: url(/img/_MG_9047-Edit.JPG) center center/cover no-repeat;
     border-radius: 50%;
-    /* flex: 1; */
+    position: relative;
+    animation: pic;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     
 }
-.philosophy{
+@keyframes pic{
+    0% {top: -100px}
+    100%{top: 0px}
+}
+.philosophy {
     line-height: 30px;
-    margin: auto 20px;
+    margin: auto 30px;
+}
+.reachme{
+    line-height: 30px;
+    margin: 20px 30px 0px 30px;
+
 }
 .my{
     color: gray;
@@ -139,7 +161,32 @@ body{
 .success{
     font-weight: bold;
 }
+.social_icons{
+    display: flex;
+    margin: auto 30px;
 
+}
+.github, .facebook, .linkedin{
+    margin: auto 20px;
+}
+.social_icons i{
+    color: black;
+    border-radius: 50%;
+}
+/* Index mobile */
+@media screen and (max-width: 600px){
+    .landing{
+        height: 100%;
+        
+    }
+    .welcome_container{
+        display: block;
+ 
+        padding: 1.5rem 3rem;
+        
+        
+    }
+}
 /* Section: Footer */
 footer{
     width: 100%;
