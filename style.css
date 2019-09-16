@@ -537,6 +537,26 @@ footer{
     margin: 5px 10px;
     flex: 1;
 }
+.experience1{
+    position: relative;
+    animation: sanc;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes sanc{
+    0%{top: -100px}
+    100%{top: 0px}
+}
+.experience2{
+    position: relative;
+    animation: sanc2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes sanc2{
+    0%{bottom: -100px}
+    100%{bottom: 0px}
+}
 .role{
     color: white;
     font-style: italic;
