@@ -33,6 +33,7 @@ body{
     top: 4%;
     right: 2%;
     display: none;
+    z-index: 1;
 
 }
 .navigations.open{
@@ -585,6 +586,11 @@ footer{
 .street_detail ol{
     text-align: left;
 }
+@media screen and (max-width: 600px){
+    .street_detail.hide{
+        margin: 20px 15px;  
+    }
+}
 /* Page: Availability */
 .landing_avail{
     width: 100%;
@@ -606,5 +612,13 @@ footer{
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
+    position: relative;
+    animation: availme;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     
+}
+@keyframes availme {
+    0% {left: -250px}
+    100% {left: 0px}
 }
