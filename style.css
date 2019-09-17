@@ -44,7 +44,15 @@ body{
     top: 4%;
     right: 2%;
     display: block;
+    /* position: relative; */
+    animation: navi;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
 
+}
+@keyframes navi{
+    0%{right: -250px}
+    100%{right: -150px }
 }
 .navigations ul{
     list-style: none;
@@ -810,6 +818,14 @@ footer{
 }
 .contact{
     margin: 10px 20px;
+    position: relative;
+    animation: conta;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes conta{
+    0% {bottom: -150px}
+    100% {bottom: 0px}
 }
 .contact_title{
     color: lightgray;
