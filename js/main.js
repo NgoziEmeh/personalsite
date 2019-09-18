@@ -2,9 +2,18 @@
 const ham = document.querySelector(".hamburger");
 const nav = document.querySelector(".navigations");
 
+const lineOne = document.querySelector(".line1");
+const lineTwo = document.querySelector(".line2");
+const lineThree = document.querySelector(".line3");
+
 ham.addEventListener("click", () => {
     nav.classList.toggle("open");
+    lineOne.classList.toggle("change");
+    lineTwo.classList.toggle("change");
+    lineThree.classList.toggle("change");
 });
+
+
 
 // Section: Education
 const schBtn = document.querySelector(".school");
@@ -61,3 +70,10 @@ streetBtn.addEventListener("click", () => {
 //     }
 
 // });
+
+// Transforming hamburger
+
+// const lineOne = document.querySelector(".line1");
+// const lineTwo = document.querySelector(".line2");
+// const lineThree = document.querySelector(".line3");
+
